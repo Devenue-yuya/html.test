@@ -1,7 +1,12 @@
+* {
+ margin: 0;
+ padding: 0;
+}
 .header {
+
   display: flex;
-  width: 100%;
-  height: 100px;
+  /* width: 100%; */
+  /* height: 100px; */
   background-color: #008b8b;
   align-items: center;
   color: #fff;
@@ -18,12 +23,13 @@
   color: #fff;
   font-size: 25px;
   padding: 10px;
-  text-decoration: none;
 }
-.mainvisual img {
-  width: 1013px;
-    /* width: 100%;
-    max-width: 1920px;
-    height: 450px;
-    object-fit: cover; */
+.header-list a {
+  text-decoration: none;
+  color: #FFf;
+}
+@media screen and (min-width: 481px) {
+  img {
+    width: 100%;
+  }
 }
