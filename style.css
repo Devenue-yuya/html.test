@@ -25,8 +25,14 @@ header {
   text-decoration: none;
   color: #FFf;
 }
+u {
+  color: red;
+  margin-top: 50px;
+  text-align:center;
+}
+
 @media screen and (min-width: 481px) {
   img {
-    width: 100%;
+    max-width: 100%;
   }
 }
